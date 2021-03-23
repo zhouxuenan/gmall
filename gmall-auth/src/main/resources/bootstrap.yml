@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: auth-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 8688c254-3af3-425f-9b7d-78b52a5cdc76
+        group: dev
+        file-extension: yml
